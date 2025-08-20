@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body className={`${roboto.variable} ${roboto.className} antialiased`}>
         <ThemeProvider
             attribute="class"
